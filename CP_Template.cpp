@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -17,7 +18,7 @@ using dl =  double;
 //Constants
 const ll MOD = 1e9 + 7; //Used for CP
 const ll INF = 4e18;
-const ld EPS = 1e-9; //(10^(-9))
+const dl EPS = 1e-9; //(10^(-9))
 
 //Macros
 #define ff first
@@ -47,7 +48,7 @@ ll mod_sub(ll a, ll b) {a = a % mod; b = b % mod; return (((a - b + mod) % mod) 
 ll ceil_div(ll a, ll b) {return a % b == 0 ? a / b : a / b + 1;}
  
 
-ll perr(ll a, ll b) {
+ll pwr(ll a, ll b) {
     a %= MOD;
     ll res = 1;
     while (b > 0) {
@@ -69,9 +70,9 @@ istream &operator>>(istream &istream , vector<T> &v)
     return istream;
 }
 
-template <Typename T> // cout << vector<T>
+template <typename T> // cout << vector<T>
 
-ostram &operator<<(ostream &ostream, const vector,T> &c)
+ostream &operator<<(ostream &ostream, const vector<T> &c)
 {
     for(auto &it : c)
         cout << it << " ";
@@ -108,7 +109,7 @@ int LCM(int a , int b)
     return ((ll)a*b / GCD(a, b));
 }
 
-ll modpow(ll x , ll n , int n = MOD)
+ll modpow(ll x , ll n , int m = MOD)
 {
     if(x == 0 && n == 0)
         return 0;
@@ -182,8 +183,6 @@ public:
             return a.first>b.first;
         }
         
-        
- 
         return diff<diff2;
         }
 };
@@ -259,7 +258,7 @@ bool check(ll i,ll n,ll k){
 
 
 void solve(){
-
+	//Ash
 }
 
 int main(){
